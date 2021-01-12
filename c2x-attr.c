@@ -10,7 +10,7 @@ int main() {
   int f = foo(); // Warning here
   switch (f) {
     case 0:
-      [[fallthrough]];
+      [[fallthrough]]
     case 1:
       puts("Bar");
       // Warning here
